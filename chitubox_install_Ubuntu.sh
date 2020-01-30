@@ -37,5 +37,8 @@ sudo convert -resize 64x64 $ICON $ICONS_DIR/64x64/apps/$ICON
 ## 128x128
 sudo cp $ICON $ICONS_DIR/128x128/apps/$ICON
 
-#Deploy desktop file (Gnome menu entry)
+# Deploy desktop file (Gnome menu entry)
 sudo cp $DESKFILE $DESKFILES_DIR/$DESKFILE
+
+# Create file association
+echo "model/x.stl-binary=chitubox.desktop" | sudo tee -a /usr/share/applications/defaults.list > /dev/null
