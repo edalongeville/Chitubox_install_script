@@ -1,8 +1,6 @@
 # Chitubox_install_script
 This script will install chitubox (with icons and .desktop link) on Ubuntu 18.04
 
-**This script has not been tested yet**
-
 ## This is intended to be used on Ubuntu 18.04.
 
 # What it does
