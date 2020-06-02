@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script installs Chitubox on Ubuntu 18.04
+# This script installs Chitubox on Ubuntu 20.04
 
 FILE="CHITUBOX_V1.6.3.tar.gz"
 ICON="chitubox.png"
