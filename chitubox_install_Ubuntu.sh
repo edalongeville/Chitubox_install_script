@@ -40,6 +40,7 @@ sudo cp $ICON $ICONS_DIR/128x128/apps/$ICON
 
 #Create a wrapper to use internal Library
 sudo cp $WRAPPERSCRIPT $INSTALL_DIR/chitubox/
+sudo chmod +x $INSTALL_DIR/chitubox/$WRAPPERSCRIPT
 
 # Deploy desktop file (Gnome menu entry)
 sudo cp $DESKFILE $DESKFILES_DIR/$DESKFILE
