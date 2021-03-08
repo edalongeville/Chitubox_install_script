@@ -1,7 +1,7 @@
 # Chitubox_install_script
-This script will install chitubox (with icons and .desktop link) on Ubuntu 18.04
+This script will install chitubox (with icons and .desktop link) on Ubuntu 18.04 & Pop!_OS 20.04
 
-## This is intended to be used on Ubuntu 18.04.
+## This is intended to be used on Ubuntu 18.04 & Pop!_OS 20.04
 
 # What it does
 - Deploys Chitubox with your other apps (in /usr/bin)
