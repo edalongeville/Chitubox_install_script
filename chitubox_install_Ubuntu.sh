@@ -1,12 +1,13 @@
 #!/bin/bash
-# This script installs Chitubox on Ubuntu 20.04
+# This script installs Chitubox on Ubuntu/Pop!_OS 20.04
 
-FILE="CHITUBOX_V1.7.0.tar.gz"
+FILE="CHITUBOX_V1.8.1.tar.gz"
 ICON="chitubox.png"
 DESKFILE="chitubox.desktop"
 INSTALL_DIR="/usr/bin"
 ICONS_DIR="/usr/share/icons/hicolor"
 DESKFILES_DIR="/usr/share/applications"
+WRAPPERSCRIPT="lauch_chitubox.sh"
 
 # Ensure chitubox archive is here
 if test -f "$FILE"; then
@@ -36,6 +37,9 @@ sudo convert -resize 48x48 $ICON $ICONS_DIR/48x48/apps/$ICON
 sudo convert -resize 64x64 $ICON $ICONS_DIR/64x64/apps/$ICON
 ## 128x128
 sudo cp $ICON $ICONS_DIR/128x128/apps/$ICON
+
+#Create a wrapper to use internal Library
+sudo cp $WRAPPERSCRIPT $INSTALL_DIR/chitubox/
 
 # Deploy desktop file (Gnome menu entry)
 sudo cp $DESKFILE $DESKFILES_DIR/$DESKFILE
