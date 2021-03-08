@@ -5,6 +5,7 @@ This script will install chitubox (with icons and .desktop link) on Ubuntu 18.04
 
 # What it does
 - Deploys Chitubox with your other apps (in /usr/bin)
+- Creates a Wrapper-Script to use the included Libraries
 - Creates a .desktop file, so you can access Chitubox from Gnome, like any other app
 - Deploys the icon, required for the above .desktop link
 - Creates file association for .chitubox files (chitubox project file format)
