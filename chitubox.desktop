@@ -5,6 +5,6 @@ Type=Application
 Categories=Graphics;3DGraphics;
 Icon=/usr/share/icons/hicolor/64x64/apps/chitubox.png
 Terminal=false
-TryExec=/usr/bin/chitubox/AppRun
-Exec=/usr/bin/chitubox/AppRun
+TryExec=/usr/bin/chitubox/lauch_chitubox.sh
+Exec=/usr/bin/chitubox/lauch_chitubox.sh
 
