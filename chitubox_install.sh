@@ -1,7 +1,7 @@
 #!/bin/bash
 # This script installs Chitubox
 
-FILE="CHITUBOX_V1.8.1.tar.gz"
+FILE="CHITUBOX_V1.9.0.tar.gz"
 ICON="chitubox.png"
 DESKFILE="chitubox.desktop"
 INSTALL_DIR="/usr/bin"
